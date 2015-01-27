@@ -16,7 +16,7 @@ $fn=200;
 difference(){	
 linear_extrude (height=10)
 
-	import (file="T-carre.dxf", layer="profil-pour-3d", $fn=100);
+	import (file="glissement.dxf", layer="profil-pour-3d", $fn=100);
 	screws();
 }
 difference(){
@@ -41,8 +41,8 @@ translate([-26,13.3725,5]) rotate([90,0,90]) cylinder (r=4, h=20);
 translate([4.1225,-6,5])rotate([90,0,0]) cylinder (r=4, h=10);
 translate([15.8775,-6,5])rotate([90,0,0]) cylinder (r=4, h=10);
 
-translate([-25.7,38.05,5]) rotate([90,0,90]) #cylinder (r=1.5, h=21);
-translate([24.5,38.05,5]) rotate([90,0,90]) #cylinder (r=1.5, h=21.5);
+translate([-25.7,38.05,5]) rotate([90,0,90]) cylinder (r=1.5, h=21);
+translate([24.5,38.05,5]) rotate([90,0,90]) cylinder (r=1.5, h=21.5);
 translate([6,37.9,3]) cube([8,4.2,4]);
 }
 

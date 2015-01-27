@@ -1,3 +1,6 @@
+/* Reprap jeanne
+* noyau de fixation entre le systeme de glissement et les biellettes
+*/
 $fn=200;
 difference(){
 	union(){
