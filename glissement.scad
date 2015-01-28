@@ -16,7 +16,7 @@ $fn=200;
 difference(){	
 linear_extrude (height=10)
 
-	import (file="glissement.dxf", layer="profil-pour-3d", $fn=100);
+	import (file="all.dxf", layer="profil-pour-3d", $fn=100);
 	screws();
 }
 difference(){
