@@ -31,7 +31,7 @@ difference(){
 	union(){
 		screws();
 		translate([7,25.498,18.98]) cube([6,3.2,6]);
-		translate([7,25.498,-14.99]) cube([6,3.2,6]);
+		translate([7,25.498,-14.97]) cube([6,3.2,6]);
 	}
 }
 
