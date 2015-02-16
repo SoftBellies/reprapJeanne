@@ -35,7 +35,7 @@ difference(){
 		//trou de la biellette
 		translate([0,-29.01,5]) 
 			rotate([270,0,0]) 
-				cylinder(r=2.1,h=15);
+				cylinder(r=2.3,h=15);
 		//trou pour l'écrou (serrage)
 		translate([-3,-29.01,-1.6]) cube([6,10,2.5]);
 		//trou pour vis de serrage
