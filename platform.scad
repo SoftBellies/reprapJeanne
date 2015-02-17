@@ -1,4 +1,7 @@
 
+use <_inc-hot-end.scad>;
+translate([0,0,-50.97]) extrudeur();
+
 difference(){
 	linear_extrude (height=5)
 	import (file="platform.dxf", layer="0", $fn=100);
