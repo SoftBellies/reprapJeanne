@@ -1,7 +1,7 @@
 reprapJeanne
 ============
 On construit une imprimante 3D grande taille,de type Rodstock:
-Hauteur: 2m (1.40m utiles), base: cilyndre d'env 80cm de diamètre.
+Hauteur: 2m (1.40m utiles), base: cylindre d'env 80cm de diamètre.
 
 ##Wiki:
 Par là: https://mail.jeannedhack.org/wicked/display.php?page=reprap_geante
