@@ -28,7 +28,7 @@ module endStop(){
 			translate([18.5,-3.99,1.5]) cube([0.5,4,3.5]);
 		
 			translate ([7,10.5,1.5]) cylinder(r=1.25,h=3.5,$fn=50);
-			translate ([0,10.5,1.5]) rotate([0,0,10]) cube([18,0.3,4]);
+			translate ([-0.01,10.499,1.5]) rotate([0,0,10]) cube([18,0.3,4]);
 		}
 		union(){
 			translate ([6,2.5,-0.01]) cylinder(r=1.25,h=15,$fn=50);
