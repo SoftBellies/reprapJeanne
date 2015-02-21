@@ -13,7 +13,7 @@ License GNU-GPL V3
 
 */
 
-include <../MCAD/bearing.scad>;
+include <MCAD/bearing.scad>;
 
 /*
 Roulements à billes 623 ZZ (0.80€)
@@ -28,68 +28,64 @@ afin de faciliter son impression.
 
 $fn=200;
 
+glissement();
+module glissement(){
+  //Pièce principale
+  difference(){
+	  union(){	
+		  linear_extrude (height=10)
+			  import (file="all.dxf", layer="profil-pour-3d", $fn=100);
+		  cones();
+	  }
+	  union(){
+		  screws();
+		  //trou pour vis fixation des deux pièces ensembles:
+		  translate([10,30,5]) rotate([-90,0,0]) cylinder(r=1.5,h=6);
+	  }
+  }
 
+  //Piece pour les deux roulements verticaux
+  difference(){
+	  union(){
+		  translate([0,0,-9])
+			  linear_extrude (height=28)
+				  import (file="all.dxf", layer="profil-pour-3d-2", $fn=100);
+		  translate([12.01,25,15]) rotate([90,0,90]) unCone();
+		  translate([12.01,25,-5]) rotate([90,0,90]) unCone();
+		  translate([8,25,15]) rotate([270,0,90]) unCone();
+		  translate([8,25,-5]) rotate([270,0,90]) unCone();
 
-//Pièce principale
+		  //encoches pour fixer les courroies	
+		  translate([2,31,17.99]) cube([16,4,6]);
+		  translate([2,31,-14.99]) cube([16,4,6]);
+	  }
+	  union(){
+		  
+		  translate([-5.1,25,15])
+			  rotate([90,0,90])
+				  cylinder (r=1.5, h=14);
+		  translate([12,25,15])
+			  rotate([90,0,90])
+				  cylinder (r=1.5, h=14);
+		  translate([-5.1,25,-5])
+			  rotate([90,0,90])
+				  cylinder (r=1.5, h=14);
+		  translate([12,25,-5])
+			  rotate([90,0,90])
+				  cylinder (r=1.5, h=14);
 
-difference(){
-	union(){	
-		linear_extrude (height=10)
-			import (file="all.dxf", layer="profil-pour-3d", $fn=200);
-		cones();
-	}
-	union(){
-		screws();
-		//trou pour vis fixation des deux pièces ensembles:
-		translate([10,30,5]) rotate([-90,0,0]) cylinder(r=1.5,h=6);
-	}
+		  //encoches pour fixer les courroies	
+		  translate([4,30.99,18.98]) cube([12,4.02,3]);
+		  translate([4,30.99,-12]) cube([12,4.02,3]);
+	  
+
+		  //encoche pour emboiter les deux pièces
+		  translate([1.99,32.99,0]) cube([16.02,2.02,10]);
+		  //trou pour vis fixation des deux pièces ensembles:
+		  translate([10,30,5]) rotate([-90,0,0]) cylinder(r=1.5,h=6);
+	  }
+  }
 }
-
-
-//Piece pour les deux roulements verticaux
-
-difference(){
-
-	union(){
-		translate([0,0,-9])
-			linear_extrude (height=28)
-				import (file="all.dxf", layer="profil-pour-3d-2", $fn=100);
-		translate([12.01,25,15]) rotate([90,0,90]) unCone();
-		translate([12.01,25,-5]) rotate([90,0,90]) unCone();
-		translate([8,25,15]) rotate([270,0,90]) unCone();
-		translate([8,25,-5]) rotate([270,0,90]) unCone();
-
-		//encoches pour fixer les courroies	
-		translate([2,31,17.99]) cube([16,4,6]);
-		translate([2,31,-14.99]) cube([16,4,6]);
-	}
-	union(){
-		
-		translate([-5.1,25,15])
-			rotate([90,0,90])
-				cylinder (r=1.5, h=14);
-		translate([12,25,15])
-			rotate([90,0,90])
-				cylinder (r=1.5, h=14);
-		translate([-5.1,25,-5])
-			rotate([90,0,90])
-				cylinder (r=1.5, h=14);
-		translate([12,25,-5])
-			rotate([90,0,90])
-				cylinder (r=1.5, h=14);
-
-		//encoches pour fixer les courroies	
-		translate([4,30.99,18.98]) cube([12,4.02,3]);
-		translate([4,30.99,-12]) cube([12,4.02,3]);
-	
-
-		//encoche pour emboiter les deux pièces
-		translate([1.99,32.99,0]) cube([16.02,2.02,10]);
-		//trou pour vis fixation des deux pièces ensembles:
-		translate([10,30,5]) rotate([-90,0,0]) cylinder(r=1.5,h=6);
-	}
-}
-
 
 module screws(){
 	translate([4.1225,7.1862,5])
@@ -136,24 +132,8 @@ module cones(){
 }
 
 module unCone(){
-	cylinder (r1=2, r2=3, h=1, $fn=100);
+	cylinder (r1=2, r2=3, h=1, $fn=50);
  	translate([0,0,0.999]) cylinder (r=3, h=1, $fn=100);
 }
 
-
-//positionnement des roulements à bille
-
-bearing(pos=[8, 25,-5], angle=[90,00,90], model=623);
-bearing(pos=[8, 25,15], angle=[90,00,90], model=623);
-bearing(pos=[0, 13.3725,5], angle=[90,00,90], model=623);
-bearing(pos=[16, 13.3725,5], angle=[90,00,90], model=623);
-bearing(pos=[4, 4.1862,5], angle=[90,0,0], model=623);
-bearing(pos=[16.5, 4.1862,5], angle=[90,0,0], model=623);
-
-
-//Profil T
-
-color ("seagreen") translate([0,0,-50])
-linear_extrude (height=2000)  
-	import (file="all.dxf", layer="profil T", $fn=100);
 

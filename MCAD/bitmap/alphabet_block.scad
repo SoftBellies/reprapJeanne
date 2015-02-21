@@ -8,7 +8,7 @@ http://creativecommons.org/licenses/by/3.0/
 use <bitmap.scad>
 
 // change to any letter
-letter = "A";
+letter = "B";
 
 union() {
 	difference() {
@@ -19,6 +19,6 @@ union() {
 	}
 
 	translate(v = [10, 10, 15]) {
-		8bit_char(letter, 2, 5);
+		"8bit_char(letter, 2, 5);
 	}
 }
