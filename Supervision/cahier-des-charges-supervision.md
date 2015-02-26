@@ -22,10 +22,10 @@ Il faut donc:
 
 Zigazou est parti sur l'idée de refaire une interface web complete sur RPY, qui pilote totalement la reprap (on peut lui charger le GCODE)
 
-##capteurs
-###détection incendie
+##Capteurs
+###Détection incendie
 type à définir
-###thermistance
+###Thermistance
 ça c'est simple
 ###Détection de problème sur le filament
 faire en sorte que le filament entraine une roue codeuse qui passe dans une fourche optique. Si pendant (5 secondes?) la fourche optique ne change pas détat, on peut considérer que soit:
