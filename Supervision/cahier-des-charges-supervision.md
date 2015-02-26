@@ -12,6 +12,9 @@ Il faut donc:
 
 + Envoi d'un en-mail avec photo lors d'un des évènements sités au dessus.
 
+
+![Alt text](https://github.com/gnieark/reprapJeanne/blob/master/Supervision/Supervision.png?raw=true "Schema")
+
 ##Pistes
 + from scratch (arduino et / ou RPY, webcam)
 + Utilisation - amélioration d'octoprint http://reprap.org/wiki/OctoPrint
