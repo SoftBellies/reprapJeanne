@@ -15,10 +15,10 @@ License GNU-GPL V3
 
 */
 
-
+/*
 use <_inc-hot-end.scad>;
 translate([0,0,-50.97]) extrudeur();
-
+*/
 
 
 
@@ -38,6 +38,7 @@ difference(){
 			cylinder(r=1.5, h=72 ,$fn=100);
 	}
 }
+
 
 
 //le système de bloquage de la J-HEAD mini
