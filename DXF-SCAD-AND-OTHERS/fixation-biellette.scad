@@ -37,7 +37,7 @@ difference(){
 			rotate([270,0,0]) 
 				cylinder(r=2.3,h=15);
 		//trou pour l'écrou (serrage)
-		translate([-3,-29.01,-1.6]) cube([6,10,2.5]);
+		translate([-3,-29.01,-1.6]) cube([6,10,2.7]);
 		//trou pour vis de serrage
 		translate([0,-24,-6]) cylinder(r=1.5,h=10);
 		//axe
