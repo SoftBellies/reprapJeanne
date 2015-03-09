@@ -9,5 +9,7 @@ Par là: https://mail.jeannedhack.org/wicked/display.php?page=reprap_geante
 ##Contribuer:
 Le plus simple est de venir nous rencontrer, le lundi soir, vers 20 h au hackerspace Jeannedhack (Rouen - France):  https://wiki.jeannedhack.org/index.php/Accueil
 
-##To do:
-Dans l'immédiat, trouver des vis M3 > 40mm, sinon, toussa.
+##To do(dans l'immediat):
+trouver des courroies
+plateau
+dessiner et concevoir les capteurs
