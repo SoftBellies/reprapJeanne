@@ -10,6 +10,5 @@ Par là: https://mail.jeannedhack.org/wicked/display.php?page=reprap_geante
 Le plus simple est de venir nous rencontrer, le lundi soir, vers 20 h au hackerspace Jeannedhack (Rouen - France):  https://wiki.jeannedhack.org/index.php/Accueil
 
 ##To do(dans l'immediat):
-trouver des courroies
-plateau
-dessiner et concevoir les capteurs
+concevoir les fixations des end-stop optiques en haut de l'axe
+dessiner et concevoir les capteurs supplémentaires
