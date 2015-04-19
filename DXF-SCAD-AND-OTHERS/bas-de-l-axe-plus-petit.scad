@@ -36,7 +36,7 @@ difference(){
 		difference(){
 			translate([-10,43,16])rotate([90,0,90]) cylinder(r=20,h=40,$fn=50);
 			union(){
-				translate([-11,43,16]) rotate([90,0,90]) cylinder(r=11.1,h=42,$fn=100);
+				translate([-11,43,16]) rotate([90,0,90]) #cylinder(r=11.1,h=42,$fn=100);
 				translate([-11,13,0]) cube([42,30,30]);
 				translate([-11,40,0]) cube([42,30,16]);
 			}
