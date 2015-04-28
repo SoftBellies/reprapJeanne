@@ -9,3 +9,4 @@ translate([0,0,6.98])
 	linear_extrude (height=20)
 		import (file="all.dxf", layer="bar-for-endstop-8-15", $fn=100);
 
+
