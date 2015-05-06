@@ -1,0 +1,7 @@
+﻿Arduino
+dupont wire 4 ports
+ramps
+roulements (voir dimensions)
+isolant thermique
+tube ptfe pour thermistance
+
