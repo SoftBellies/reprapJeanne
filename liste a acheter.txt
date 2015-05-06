@@ -1,6 +1,6 @@
-﻿Arduino
+Arduino => commandé
 dupont wire 4 ports
-ramps
+ramps => commandé
 roulements (voir dimensions)
 isolant thermique
 tube ptfe pour thermistance
