@@ -2503,15 +2503,15 @@ ByLayer
  31
 0.0
   0
-LINE
+MTEXT
   5
 5C
 100
 AcDbEntity
 100
-AcDbLine
+AcDbMText
   8
-filament
+0
  62
 256
 370
@@ -2519,17 +2519,29 @@ filament
   6
 ByLayer
  10
-2.8999999999999999
+-47.0016000000000034
  20
--0.0000000000000007
+51.3023999999999987
  30
 0.0
- 11
-2.8999999999999999
- 21
-36.0
- 31
+ 40
+3.0
+ 41
+49.1666697523999972
+ 71
+1
+ 72
+0
+  1
+L'extrusion de plastique
+  7
+standard
+ 50
 0.0
+ 73
+1
+ 44
+1.0
   0
 LINE
   5
@@ -2547,9 +2559,9 @@ filament
   6
 ByLayer
  10
-0.1
+2.8999999999999999
  20
-36.0
+-0.0000000000000007
  30
 0.0
  11
@@ -2577,11 +2589,11 @@ ByLayer
  10
 0.1
  20
--0.0
+36.0
  30
 0.0
  11
-0.1
+2.8999999999999999
  21
 36.0
  31
@@ -2609,6 +2621,34 @@ ByLayer
  30
 0.0
  11
+0.1
+ 21
+36.0
+ 31
+0.0
+  0
+LINE
+  5
+60
+100
+AcDbEntity
+100
+AcDbLine
+  8
+filament
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+0.1
+ 20
+-0.0
+ 30
+0.0
+ 11
 2.8999999999999999
  21
 -0.0000000000000007
@@ -2617,7 +2657,7 @@ ByLayer
   0
 LINE
   5
-60
+61
 100
 AcDbEntity
 100
@@ -2645,7 +2685,7 @@ ByLayer
   0
 LINE
   5
-61
+62
 100
 AcDbEntity
 100
@@ -2673,7 +2713,7 @@ ByLayer
   0
 LINE
   5
-62
+63
 100
 AcDbEntity
 100
@@ -2701,7 +2741,7 @@ ByLayer
   0
 LINE
   5
-63
+64
 100
 AcDbEntity
 100
@@ -2729,7 +2769,7 @@ ByLayer
   0
 LINE
   5
-64
+65
 100
 AcDbEntity
 100
@@ -2757,7 +2797,7 @@ ByLayer
   0
 ARC
   5
-65
+66
 100
 AcDbEntity
   8
@@ -2787,7 +2827,7 @@ AcDbArc
   0
 ARC
   5
-66
+67
 100
 AcDbEntity
   8
@@ -2817,7 +2857,7 @@ AcDbArc
   0
 LINE
   5
-67
+68
 100
 AcDbEntity
 100
@@ -2845,7 +2885,7 @@ ByLayer
   0
 LINE
   5
-68
+69
 100
 AcDbEntity
 100
@@ -2873,7 +2913,7 @@ ByLayer
   0
 LINE
   5
-69
+6A
 100
 AcDbEntity
 100
@@ -2901,7 +2941,7 @@ ByLayer
   0
 LINE
   5
-6A
+6B
 100
 AcDbEntity
 100
@@ -2929,7 +2969,7 @@ ByLayer
   0
 LINE
   5
-6B
+6C
 100
 AcDbEntity
 100
@@ -2993,7 +3033,7 @@ E
   3
 AcDbVariableDictionary
 350
-6C
+6D
   0
 DICTIONARY
   5
@@ -3457,7 +3497,7 @@ Layout2
   0
 DICTIONARY
   5
-6C
+6D
 100
 AcDbDictionary
 281
@@ -3465,15 +3505,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-6E
+6F
   3
 HIDETEXT
 350
-6D
+6E
   0
 DICTIONARYVAR
   5
-6D
+6E
 100
 DictionaryVariables
 280
@@ -3483,7 +3523,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-6E
+6F
 100
 DictionaryVariables
 280
