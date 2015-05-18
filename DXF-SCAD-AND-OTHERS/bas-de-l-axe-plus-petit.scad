@@ -11,7 +11,6 @@ By Gnieark https://blog-du-grouik.tinad.fr
 & TranKILLoman   
 
 License GNU-GPL V3
-
 */
 
 linear_extrude (height=4.01)
