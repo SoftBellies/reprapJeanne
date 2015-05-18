@@ -15,7 +15,6 @@ License GNU-GPL V3
 
 linear_extrude (height=4.01)
 	import (file="all.dxf", layer="foot-profil-0-4", $fn=100);
-
 difference(){
 	union(){
 		translate([0,0,4])
@@ -29,13 +28,13 @@ difference(){
 				unCone();
 	}
 	union(){
-		translate([0,43,16])
+		translate([-10,43,16])
 			rotate([90,0,90])
-				cylinder(r=4,$fn=50, h=20);
+				#cylinder(r=4,$fn=50, h=50);
 		difference(){
 			translate([-10,43,16])rotate([90,0,90]) cylinder(r=20,h=40,$fn=50);
 			union(){
-				translate([-11,43,16]) rotate([90,0,90]) #cylinder(r=11.1,h=42,$fn=100);
+				translate([-11,43,16]) rotate([90,0,90]) cylinder(r=11.1,h=42,$fn=100);
 				translate([-11,13,0]) cube([42,30,30]);
 				translate([-11,40,0]) cube([42,30,16]);
 			}
