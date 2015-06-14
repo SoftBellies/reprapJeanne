@@ -23,18 +23,19 @@ afin de faciliter son impression.
 $fn=200;
 
 
-
+/*
 glissement();
 part2();
 part3();
 translate([20,0,10])
 	rotate([0,180,0])
 		part3();
-
+*/
 //Décommentez les lignes suivantes et commentez les précédentes
 //Pour avoir les 3 pièces disposées à plat de façon à les imprimer
 //facilement
-/*
+
+
 glissement();
 translate([0,45,35]) 
 	rotate([270,0,90]) part2();
@@ -44,7 +45,6 @@ translate([30,52,9])
 translate([45,52,9])
 	rotate ([0,0,90])
 		part3();
-*/
 
 
 module glissement(){
@@ -109,7 +109,7 @@ module part2(){
 	  
 
 		  //encoche pour emboiter les deux pièces
-		  translate([1.99,32.99,0]) cube([16.02,2.02,10]);
+		  translate([1.99,32.99,-0.5]) cube([16.02,2.02,11]);
 		  //trou pour vis fixation des deux pièces ensembles:
 		  translate([10,30,5]) rotate([-90,0,0]) cylinder(r=1.5,h=6);
 	  		}
