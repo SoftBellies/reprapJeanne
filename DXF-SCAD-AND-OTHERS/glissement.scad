@@ -1,10 +1,8 @@
 /*
 Projet ReprapJeanne
-
 Glissement le long des axes. "T carré 20x20 alu"
 
 github: https://github.com/gnieark/reprapJeanne
-wiki https://mail.jeannedhack.org/wicked/display.php?page=reprap_geante
 
 By Gnieark https://blog-du-grouik.tinad.fr
 & TranKILLoman   
@@ -12,7 +10,7 @@ By Gnieark https://blog-du-grouik.tinad.fr
 License GNU-GPL V3
 
 
-Roulements à billes 623 ZZ (0.80€)
+Roulements à billes utilisés: 623 ZZ (0.80€)
 Diamètre intérieur : 3mm
 Diamètre extérieur : 10 mm
 Largeur : 4 mm
@@ -21,7 +19,6 @@ Le système de glissement est divisé en trois pièces
 afin de faciliter son impression.
 */
 $fn=200;
-
 
 /*
 glissement();
@@ -39,6 +36,7 @@ translate([20,0,10])
 glissement();
 translate([0,45,35]) 
 	rotate([270,0,90]) part2();
+
 translate([30,52,9])
 	rotate ([0,0,90])
 		part3();
