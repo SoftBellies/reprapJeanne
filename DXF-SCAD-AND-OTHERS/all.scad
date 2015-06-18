@@ -1,3 +1,16 @@
+/*
+Projet ReprapJeanne
+Modélisation de l'ensemble de l'imprimante
+
+(dessin non terminé)
+
+github: https://github.com/gnieark/reprapJeanne
+
+By Gnieark https://blog-du-grouik.tinad.fr
+& TranKILLoman   
+License GNU-GPL V3
+*/
+
 //structure plateaux et axes
 linear_extrude (height=5)
 			  import (file="plateau-axes.dxf", layer="plateau", $fn=100);
