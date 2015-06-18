@@ -20,19 +20,20 @@ afin de faciliter son impression.
 */
 $fn=200;
 
-/*
+//glissement_all(); //pièces disposées assemblées
+
+glissement_imprimable(); //pieces disposées de facon à etre imprimées facilement
+
+module glissement_all(){
 glissement();
 part2();
 part3();
 translate([20,0,10])
 	rotate([0,180,0])
 		part3();
-*/
-//Décommentez les lignes suivantes et commentez les précédentes
-//Pour avoir les 3 pièces disposées à plat de façon à les imprimer
-//facilement
+}
 
-
+module glissement_imprimable(){
 glissement();
 translate([0,45,35]) 
 	rotate([270,0,90]) part2();
@@ -43,8 +44,7 @@ translate([30,52,9])
 translate([45,52,9])
 	rotate ([0,0,90])
 		part3();
-
-
+}
 module glissement(){
 
   //Pièce principale
