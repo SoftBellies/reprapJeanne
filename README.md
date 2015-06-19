@@ -1,6 +1,6 @@
 # reprapJeanne
 
-On construit une imprimante 3D grande taille,de type Rodstock:
+On construit une imprimante 3D grande taille,de type Rostock [http://reprap.org/wiki/Rostock/fr]:
 
 Hauteur: 2m (1.40m utiles), base: cylindre d'env 80cm de diamètre.
 
