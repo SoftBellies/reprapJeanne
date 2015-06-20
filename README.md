@@ -19,6 +19,9 @@ Le plus simple est de venir nous rencontrer, le lundi soir, vers 20 h au hackers
 * Rédiger notice d'assemblage et quelques schémas.
 * [https://github.com/Trankilloman](@Tranquilloman) -> Dessiner / concevoir système de fixation de l'extrudeur.
 
+
 ## Bonus
 
 * [https://github.com/moul](@moul): Porter Octopi sur son protrotype ultra secret de board.
+* [http://www.thingiverse.com/thing:204719/#files] : Tête d'extrusion utilisée
+* [http://www.thingiverse.com/thing:470058] : Extrudeur utilisé (fabrap-_-_extruder_latch-1.STL, fabrap-_-_extruder_motor_gear-1.STL, fabrap-_-_extruder_main-1.STL, fabrap-_-_extuder_big_gear-1.STL)
