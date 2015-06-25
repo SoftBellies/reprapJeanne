@@ -30,7 +30,7 @@ On hésite entre la license Cecill http://www.cecill.info/liens.fr.html , Créat
 En attendant cette décision, merci simplement de respecter la paternité de Reprapjeanne si vous en réutilisez des parties.
 
 Aucune garantie, de façon non exhaustive:
-* On ne garantit pas que ça fonctionne correctement.
+* On ne garantit pas que ça fonctionne correctement (On garantie même que ça ne fonctionnera pas vu que le projet n'est pas terminé).
 * On ne garantit pas que ça ne cause aucun dégâts sur vos matériels et / ou logiciels et / ou données
 * On ne garantit pas que ce soit conforme aux lois et réglementations de votre pays.
 
