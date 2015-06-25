@@ -36,8 +36,8 @@ Aucune garantie, de façon non exhaustive:
 
 ## Codes / designs empruntés à droite et à gauche
 
-* [http://www.thingiverse.com/thing:204719] : Tête d'extrusion utilisée: J-Head Lite V1.0 Hot End by ohioplastics is licensed under the Creative Commons - Attribution - Share Alike license [http://creativecommons.org/licenses/by-sa/3.0/]. 
+* [http://www.thingiverse.com/thing:204719] : Tête d'extrusion utilisée: J-Head Lite V1.0 Hot End by ohioplastics is licensed under the Creative Commons - Attribution - Share Alike license http://creativecommons.org/licenses/by-sa/3.0/. 
 
-* [http://www.thingiverse.com/thing:470058] : Extrudeur utilisé : Fabrap 1.0 by fabrice974 is licensed under the Creative Commons - Attribution - Share Alike license. [http://creativecommons.org/licenses/by-sa/3.0/]
+* [http://www.thingiverse.com/thing:470058] : Extrudeur utilisé : Fabrap 1.0 by fabrice974 is licensed under the Creative Commons - Attribution - Share Alike license. http://creativecommons.org/licenses/by-sa/3.0/
 
-* Marlin [https://github.com/MarlinFirmware/Marlin] GPL license [http://www.gnu.org/licenses/gpl-3.0.fr.html]
+* Marlin https://github.com/MarlinFirmware/Marlin GPL license http://www.gnu.org/licenses/gpl-3.0.fr.html
