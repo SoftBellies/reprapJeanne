@@ -23,5 +23,21 @@ Le plus simple est de venir nous rencontrer, le lundi soir, vers 20 h au hackers
 ## Bonus
 
 * [https://github.com/moul](@moul): Porter Octopi sur son protrotype ultra secret de board.
-* [http://www.thingiverse.com/thing:204719/#files] : Tête d'extrusion utilisée
-* [http://www.thingiverse.com/thing:470058] : Extrudeur utilisé (fabrap-_-_extruder_latch-1.STL, fabrap-_-_extruder_motor_gear-1.STL, fabrap-_-_extruder_main-1.STL, fabrap-_-_extuder_big_gear-1.STL)
+
+## License
+On hésite entre la license Cecill http://www.cecill.info/liens.fr.html , Créative Commons ou la Do What the Fuck You Want to Public License.
+
+En attendant cette décision, merci simplement de respecter la paternité de Reprapjeanne si vous en réutilisez des parties.
+
+Aucune garantie, de façon non exhaustive:
+* On ne garantit pas que ça fonctionne correctement.
+* On ne garantit pas que ça ne cause aucun dégâts sur vos matériels et / ou logiciels et / ou données
+* On Je ne garantit pas que ce soit conforme aux lois et réglementations de votre pays.
+
+## Codes / designs empruntés à droite et à gauche
+
+* [http://www.thingiverse.com/thing:204719] : Tête d'extrusion utilisée: J-Head Lite V1.0 Hot End by ohioplastics is licensed under the Creative Commons - Attribution - Share Alike license [http://creativecommons.org/licenses/by-sa/3.0/]. 
+
+* [http://www.thingiverse.com/thing:470058] : Extrudeur utilisé : Fabrap 1.0 by fabrice974 is licensed under the Creative Commons - Attribution - Share Alike license. [http://creativecommons.org/licenses/by-sa/3.0/]
+
+* Marlin [https://github.com/MarlinFirmware/Marlin] GPL license [http://www.gnu.org/licenses/gpl-3.0.fr.html]
