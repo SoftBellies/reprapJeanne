@@ -32,7 +32,7 @@ En attendant cette décision, merci simplement de respecter la paternité de Rep
 Aucune garantie, de façon non exhaustive:
 * On ne garantit pas que ça fonctionne correctement.
 * On ne garantit pas que ça ne cause aucun dégâts sur vos matériels et / ou logiciels et / ou données
-* On Je ne garantit pas que ce soit conforme aux lois et réglementations de votre pays.
+* On ne garantit pas que ce soit conforme aux lois et réglementations de votre pays.
 
 ## Codes / designs empruntés à droite et à gauche
 
