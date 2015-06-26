@@ -11,14 +11,12 @@ Le plus simple est de venir nous rencontrer, le lundi soir, vers 20 h au hackers
 
 ## To do(dans l'immediat):
 
-* Imprimer et installer la nouvelle version "hauts de l'axe" (afin de rendre l'imprimante plus stable). 
-* Installer les modifications aux glissements (roulements à billes en cours de livraison).
+* Etudier système d'areignée pour stabiliser l'imprimante
+* Système de fixation des end-stop à reprendre (Gnieark)
 * Electronique et firmware: Connecter définitivement les endstop. 
-* Faire un essai en inversant les pins de l'extrudeur 1 ( non utilisé). et le moteur X (qui ne veut pas fonctionner)(Gnieark pour la préparation du firmware).
+* Trouver le faux contact et / ou l'erreur dans le firmware qui fait que le le moteur X  ne veut pas fonctionner.
 * [https://github.com/moul](@moul): kernel module pour pouvoir soft-reset/soft-halt via les gpios
 * Rédiger notice d'assemblage et quelques schémas.
-* [https://github.com/Trankilloman](@Tranquilloman) -> Dessiner / concevoir système de fixation de l'extrudeur.
-
 
 ## Bonus
 
