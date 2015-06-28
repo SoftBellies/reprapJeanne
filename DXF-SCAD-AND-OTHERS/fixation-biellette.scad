@@ -16,7 +16,8 @@ License GNU-GPL V3
 */
 
 $fn=100;
-
+fixation_biellette();
+module fixation_biellette(){
 difference(){
 
 	union(){
@@ -44,4 +45,5 @@ difference(){
 		translate([-11,1,5]) rotate([0,90,0]) cylinder(r=1.5,h=23);
 	}
 
+}
 }
