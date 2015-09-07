@@ -1,6 +1,6 @@
 # reprapJeanne
 
-Ce projet est mis de coté au profit du projet reprapJeanneV2 [https://github.com/jeannedhack/reprapJeanneV2]
+Ce projet est mis de coté au profit du projet reprapJeanneV2 [reprapJeanneV2](https://github.com/jeannedhack/reprapJeanneV2)
 sur lequel on modifie le profil des axes.... et ça change tout...
 
 On construit une imprimante 3D grande taille,de type Rostock [http://reprap.org/wiki/Rostock/fr]:
